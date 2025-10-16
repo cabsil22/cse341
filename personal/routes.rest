@@ -1,0 +1,91 @@
+####################
+### local routes ###
+####################
+
+GET http://localhost:8080
+
+### Get all contacts
+GET http://localhost:8080/contacts/
+
+### get single contact
+GET http://localhost:8080/contacts/3
+
+
+### post new contact
+POST http://localhost:8080/contacts/
+Content-Type: application/json
+
+{   
+    "firstName": "Robert",
+    "lastName": "James",
+    "email": "robertjames@gmail.com", 
+    "favoriteColor": "blue",
+    "birthday": "01/01/1977"
+
+}
+
+
+### put update with new info
+PUT http://localhost:8080/contacts/68f11af8f9a182a500ee650c
+Content-Type: application/json
+
+{   
+    "firstName": "Tom",
+    "lastName": "Johnson",
+    "email": "tomzJohnson@gmail.com", 
+    "favoriteColor": "purple",
+    "birthday": "06/16/1987"
+
+}
+
+### Delete contact
+DELETE http://localhost:8080/contacts/68f1193beb37731260cb259d
+
+
+
+
+
+#####################
+### remote routes ###
+#####################
+### Get home
+GET https://cse341-ie8t.onrender.com/
+
+### Get all contacts
+GET https://cse341-ie8t.onrender.com/contacts/
+
+### get single contact
+GET https://cse341-ie8t.onrender.com/contacts/3
+
+
+### post new contact
+POST https://cse341-ie8t.onrender.com/contacts/
+Content-Type: application/json
+
+{   
+    "firstName": "Robert",
+    "lastName": "James",
+    "email": "robertjames@gmail.com", 
+    "favoriteColor": "blue",
+    "birthday": "01/01/1977"
+
+}
+
+
+### put update with new info
+PUT https://cse341-ie8t.onrender.com/contacts/68f11af8f9a182a500ee650c
+Content-Type: application/json
+
+{   
+    "firstName": "Tom",
+    "lastName": "Johnson",
+    "email": "tomzJohnson@gmail.com", 
+    "favoriteColor": "purple",
+    "birthday": "06/16/1987"
+
+}
+
+### Delete contact
+DELETE https://cse341-ie8t.onrender.com/contacts/68f1193beb37731260cb259d
+
+

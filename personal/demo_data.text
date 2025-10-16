@@ -1,0 +1,35 @@
+{   
+    "firstName": "Tom",
+    "lastName": "Kester",
+    "email": "tomzkester@gmail.com", 
+    "favoriteColor": "blue",
+    "birthday": "01/16/1914"
+
+}
+
+{   
+    "firstName": "Beth",
+    "lastName": "Kester",
+    "email": "beth@gmail.com", 
+    "favoriteColor": "red",
+    "birthday": "02/16/1915"
+
+}
+
+
+{   
+    "firstName": "Aaron",
+    "lastName": "Kester",
+    "email": "arron@gmail.com", 
+    "favoriteColor": "yellow",
+    "birthday": "03/16/2000"
+
+}
+{   
+    "firstName": "William",
+    "lastName": "Kester",
+    "email": "william@gmail.com", 
+    "favoriteColor": "green",
+    "birthday": "04/16/2020"
+
+}
