@@ -3,7 +3,7 @@ const { ObjectId } = require('mongodb');
 
 async function get_contact(id) {
   const collection = initDb().collection("Contacts");
-  const query = { _id: id };
+  const query = { "_id": new ObjectId(id) };
   const document = await collection.findOne(query);
   try {
     if (document) {
