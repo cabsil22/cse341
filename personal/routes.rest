@@ -73,7 +73,7 @@ Content-Type: application/json
 
 
 ### put update with new info
-PUT https://cse341-ie8t.onrender.com/contacts/68f1345a90134d32eaa5e025
+PUT https://cse341-ie8t.onrender.com/contacts/68f1366d2004efe9f5ac2a84
 Content-Type: application/json
 
 {   
@@ -86,6 +86,6 @@ Content-Type: application/json
 }
 
 ### Delete contact
-DELETE https://cse341-ie8t.onrender.com/contacts/68f1345a90134d32eaa5e025
+DELETE https://cse341-ie8t.onrender.com/contacts/68f1366d2004efe9f5ac2a84
 
 
