@@ -5,10 +5,11 @@
     "description": "Description",
     "version": "1.0.0"
   },
-  "host": "localhost:8080/contacts",
-  "basePath": "/",
+  "host": "localhost:8080",
+  "basePath": "/contacts",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/": {
